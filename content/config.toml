@@ -1,0 +1,57 @@
+# Edit this file to update your name, affiliation, and contact links.
+# English profile. Chinese overrides are in content_zh/config.toml.
+[site]
+title = "Wenke Quan"
+description = "Wenke Quan, PhD student at Harbin Institute of Technology. Research in embodied intelligence, vision-language-action (VLA) models, and reinforcement learning."
+favicon = "/favicon.svg"
+last_updated = "November 13, 2026"
+
+[author]
+name = "Wenke Quan"
+title = "PhD Student"
+institution = "Harbin Institute of Technology"
+avatar = "/avatar.svg"
+
+[social]
+# Leave a field empty to hide its icon. Replace with your actual profile URLs.
+email = "quanwenke@stu.hit.edu.cn"
+location = ""
+google_scholar = ""
+orcid = "https://orcid.org/0009-0007-0589-8189"
+github = "https://github.com/WinkQuan"
+linkedin = ""
+
+[features]
+enable_likes = false
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["en", "zh"]
+default_locale = "en"
+mode = "auto"
+fixed_locale = "en"
+persist = true
+switcher = true
+
+[i18n.labels]
+en = "English"
+zh = "中文"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

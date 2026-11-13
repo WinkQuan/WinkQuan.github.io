@@ -1,0 +1,28 @@
+# 中文资料；未指定的设置沿用 content/config.toml。
+[site]
+title = "全文可"
+description = "全文可，哈尔滨工业大学计算学部博士生，研究方向为具身智能、视觉—语言—动作（VLA）模型与强化学习。"
+last_updated = "2026年11月13日"
+
+[author]
+name = "全文可"
+title = "博士生"
+institution = "哈尔滨工业大学 · 计算学部"
+
+[[navigation]]
+title = "关于我"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "学术论文"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "个人简历"
+type = "page"
+target = "cv"
+href = "/cv"

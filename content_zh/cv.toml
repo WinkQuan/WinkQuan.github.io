@@ -1,0 +1,4 @@
+type = "text"
+title = "个人简历"
+description = "教育经历、研究工作与学术活动。"
+source = "cv.md"

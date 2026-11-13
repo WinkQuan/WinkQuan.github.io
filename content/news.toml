@@ -1,0 +1,5 @@
+# To add real updates, delete news = [] and add entries, newest first:
+# [[news]]
+# date = "YYYY-MM"
+# content = "Your update."
+news = []
